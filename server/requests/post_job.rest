@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/jobs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkZpcnN0dXNlciIsImlkIjoiNjg4YzI5MjNjNjMxY2M2YzdjZWE5ZWFiIiwiaWF0IjoxNzU0MTYyOTM3LCJleHAiOjE3NTQxNjY1Mzd9.gKDyrJkFS4SZvu7T9wj-j9YipeC2uXwYc0XBihmZXWc
+
+{
+  "title": "Backend Developer",
+  "company": "TechNova",
+  "url": "https://technova.com/careers/frontend-dev",
+  "status": "Applied",
+  "desc": "Developed backend.",
+  "type": "Full-time",
+  "source": "LinkedIn"
+}
