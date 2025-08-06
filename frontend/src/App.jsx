@@ -53,19 +53,36 @@ const App = () => {
   const LoginLink = () => {
     return (
       <div>
-        <h2>Sign Up or Log In!</h2>
+        <h2 className="font-bold pb-20 pt-5 text-3xl text-center bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">
+          Sign Up or Log In!
+        </h2>
+
         <Errormsg message={err} />
-        <Link to="/signup">New User? (Sign Up)</Link>
-        <br></br>
-        <Link to="/login">Existing User? (Log in)</Link>
+
+        <div className="flex flex-col items-center gap-3">
+          <Link
+            to="/signup"
+            className="w-60 text-center bg-gradient-to-r from-purple-500 to-pink-500 text-white text-lg font-semibold px-6 py-3 rounded-full border-2 border-black shadow-md hover:opacity-90 transition-all duration-200 text-outline-black"
+          >
+            New User? (Sign Up)
+          </Link>
+
+          <Link
+            to="/login"
+            className="w-60 text-center bg-gradient-to-r from-purple-500 to-pink-500 text-white text-lg font-semibold px-6 py-3 rounded-full border-2 border-black shadow-md hover:opacity-90 transition-all duration-200 text-outline-black"
+          >
+            Existing User? (Log in)
+          </Link>
+        </div>
       </div>
     )
   }
 
+
   return (
     <Router>
       <div>
-        <h1>JobScape</h1>
+        <h1 className="font-bold p-7 text-8xl text-center bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">JobScape</h1>
 
         <Routes>
           <Route path="/login" element={
