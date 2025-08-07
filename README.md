@@ -39,7 +39,7 @@ Track every detail of your job search:
 - Status-highlighted UI to prioritize follow-ups
 
 ### 💻 Full-Stack MERN Architecture
-- **Frontend**: React, Tailwind CSS, Axios
+- **Frontend**: React + Vite, Tailwind CSS, Axios
 - **Backend**: Node.js, Express, MongoDB, Mongoose
 - **Auth**: JWT, bcrypt
 - **AI Integration**: OpenAI API (for resume feedback, cover letters, Q&A)
