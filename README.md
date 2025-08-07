@@ -1,6 +1,6 @@
-# 💼 Jobscape — An Actually Smart Job Application Tracker, with an in-built AI Assistant
+# 💼 Jobscape: An Actually Smart Job Application Tracker, with an in-built AI Assistant
 
-**Jobscape** is a full-stack job application tracker that goes far beyond traditional spreadsheets like Excel. Instead of just recording your applications, Jobscape actively assists your job hunt with an **in-built AI assistant** that gives intelligent resume feedback, tailored cover letters, and mock interview prep — all built into a fast, clean interface. Think of it as your personal job search assistant, not just a tracker.
+**Jobscape** is a full-stack job application tracker that goes far beyond traditional spreadsheets like Excel. Instead of just recording your applications, Jobscape actively assists your job hunt with an **in-built AI assistant** that gives intelligent resume feedback, tailored cover letters, and mock interview prep - all built into a fast, clean interface. Think of it as your personal job search assistant, not just a tracker.
 
 **Use here** at https://jobscape-kvns.onrender.com
 
@@ -57,7 +57,7 @@ Track every detail of your job search:
 | ✅ Clean UI & responsive design | ❌ Cluttered & non-mobile-friendly |
 | ✅ Chat-style interface with AI | ❌ Static rows and columns |
 
-Jobscape doesn't just **record** your job search — it **actively improves** it.
+Jobscape doesn't just **record** your job search, it **actively improves** it.
 
 ---
 
